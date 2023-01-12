@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+header{
+    width: 185px;
+    display: flex;
+}
+
+main{
+    width: calc(100% - 185px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.texto-botones{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 90%;
+    margin: auto;
+    padding-top: 90px;
+}
+
+.texto-procesar{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    height: calc(100% - 180px);
+}
+
+.texto-requerido{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 90%;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 19px;
+    border: solid 1px transparent;
+    outline: none;
+    resize: none;
+}
+
+.texto-requerido::placeholder{
+    font-weight: normal;
+    color: blue;
+}
